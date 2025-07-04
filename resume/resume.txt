@@ -1,0 +1,447 @@
+Software Architect (Flutter) with UX & AI skills
+Anton Malofeev, (GMT+3), Saint Petersburg, Russia
+
+
+About
+Hi, I’m Anton👋
+My work is based on:
+Ethical Principles.
+Why: when business have certain principles to design software, it usually prioritizes creating unique value for End User. This helps a lot with defining how team communicates with each other, how application looks and function, how code is written (by knowing constraints and freedoms within). Also by having ethical principles it is clear when AI can be used (in end product or in IDE), and when it shouldn’t.
+User & Team Experience.
+In my work I prioritize impact for End User and sense of team while working with other people. Meaning: I value other people experience and believe that culture of experience sharing is worth the time.
+Value via Care & Innovation.I believe that the app should be simple, focused and worth of people time who is using it. Combining with growing technologies, especially AI (cloud or on-device LLMs), I believe that so many things can be reimagined and fundamentally rethought making User experience as priority.
+AI:
+I use Cursor (mostly) for writing a code. But thinking of the code as co-colleague, who can teach me new things, reimagine old things. In the same time, every my decision where I use it and why is based on Ethical principles - this allows me to build faster but with more quality for End User and Developer. ( https://medium.com/@antmalofeev/small-thought-developer-ethics-may-be-a-bridge-to-work-with-ai-tools-cd60cf43c856)
+Developer & Designer & QA as User.In my opinion that every person who can access a code is a user too. Meaning: writing useful documentation, making API useful, making Design System accessible for Designer, getting any feedback (via code review, or application preview) is extremely important for me. In my opinion this process makes not only product better, but every person who involved in its creation.
+Prototyping. From my experience many of the great ideas and practices are coming from iterations and fast prototyping - because it is not only allows to feel the idea, but to share, and experience it yourself and share with others. And hearing the feedback is most of important part of prototyping too 🙂
+Timing.
+Usually I use simple formula to get most correct time: Team + Known Knowledge + My Experience + My Experience in the codebase | domain.Meaning: when measuring how long feature/bug/app can be developed I usually need to know the people who works with me, then the codebase and then combine it with all I know.
+
+Will be glad to discuss your project and have a nice day!
+My best regards,
+Anton
+
+
+
+Contacts & links
+
+Telegram
+https://t.me/arenukvern
+E-mail
+anton@xsoulspace.dev
+GitHub
+https://github.com/xsoulspace
+LinkedIn
+http://linkedin.com/in/antmalofeev/
+X
+https://x.com/antmalofeev
+Medium
+https://medium.com/@antmalofeev
+
+
+
+Technologies
+Application
+Years
+Experience in:
+Stack
+AI Agents
+
+1
+- setting up best practices to work with AI tools
+- design to code processes
+- automation using n8n
+Used in production: Cursor, Cline, n8n
+
+Had a course to use: smol agents (course on hugging faces)
+Flutter
+Client
+2.5
+- application and game architecture;
+- Figma design implementation;
+- code review;
+- ci/cd setup
+state: provider, notifiers, flutter_hooks, bloc, states_rebuilder, stacked, elementary, getx, freezed.network: firebase (core, messaging, analytics), amplitude, dio, retrofit, supabase, , sentry, graphqlui: custom, material, fluent uifvm🙂
+Dart
+Client
+2.5
+- contributing to OpenSource libraries;
+- writing JS interop library;
+- a socket implementation;
+- complex custom code generation;
+- null safety and maximally strict linter rules;
+
+Rarely used in current time
+
+
+
+
+Typescript
+Client/Backend
+3
+- client & backend application architecture;
+- REST, graphql;
+- null safety and maximally strict eslint rules
+- ci/cd setup
+
+Vue.js 3
+Client
+2
+- application architecture;
+- template syntax, TSX
+- hooks, di
+- ci/cd setup
+webpack, vite, vuetify
+Vue.js 2
+Client
+2
+- application architecture;
+- template syntax
+webpack, vuetify
+Docker
+Backend
+1
+- db, build scripts setup with pm2
+- ci/cd setup
+
+Graphback
+Backend
+1
+- setup, external plugins writing
+
+
+For experience formalities:
+
+
+
+Personal work experience (Self-employee)
+
+Years
+Project
+Description
+March 2025 - now
+Flutter MCP server https://github.com/Arenukvern/mcp_flutter
+Developed
+April 2020 - now
+Last Answer: ideas & notes (Flutter)
+Cross platform application, released in Snapcraft (Ubuntu), Google Play, Apple Store, Microsoft Store (currently in beta) and web.
+
+App to write down ideas and notes for life and social networks.Live: http://xsoulspace.dev/last_answer/GitHub: https://github.com/xsoulspace/last_answerUsage: about 50 people daily
+October 2020 - now
+Word By Word game
+Word by word - is a simple, fun, self-educative and easy to play game to write word after word based on last 3 letters of last word.
+
+Released in Snapcraft (Ubuntu), Google Play and web.Usage: about 160 people dailyLive: http://xsoulspace.dev/word_by_word_game/#/GitHub: https://github.com/xsoulspace/word_by_word_gameTechnologies:
+Flutter
+July 2019 - May 2022
+Office JS interop for Dart
+Unofficial Office.js (https://github.com/OfficeDev/office-js) wrapper for Flutter/Dart. https://github.com/xsoulspace/officejs_dart
+October 2020 - now
+Personal website
+Proof of conceptLive: https://xsoulspace.devGitHub: https://github.com/xsoulspace/xsoulspace.github.ioTechnologies:
+Flutter
+
+
+
+Commercial Freelance work experience (long-term projects)
+
+Years
+Project
+Title
+Description
+April 2021 - March 2023
+2D strategy game - Europa Universalis in Asian style for Mongols (https://github.com/pgainullin/transoxiana-open)
+Flutter Cross Platform Game Developer
+Responsibilities:
+
+- develop new features
+- fix bugsAchieved:
+
+- updated to null safety
+- developed json based tutorial system layer
+- implemented and refactored game data layer to have ability be in runtime, save and load
+- refactored isolates logic
+- implemented smooth camera functionalityTechnologies:
+Flame, Flutter, states_rebuilder, freezed, MacOS, Android, iOS
+February 2022 - December 2022
+NDA
+
+project management web application
+Flutter Web Developer
+Developed MVP application accordingly to the Figma Design.
+Migrated from Vue3, Vite, Typescript, Quasar, LernaAchieved:
+- Completed most of application functionality.
+- Project is not completed because of lack of founding from the founder.D
+April 2021 - November 2021
+NDA
+
+web app for Scrum Poker
+Flutter Web Developer
+Responsibilities:
+
+- refactored old web application accordingly to the best practices.
+- implement Figma design and guidelines.
+- carefully implement business logic and WebRTC clients communication.Achieved:
+- the working application🙂Technologies:
+Flame, Flutter Web, Sentry
+January 2021 - February 2021
+UHST Open Source Library (uhst-client-flutter)
+Dart developer
+WebRTC protocol via server relay for multiple clientsAchieved:
+Refactored UHST Typescript library into Dart libraryTechnologies:
+Dart, Typescript
+
+
+Commercial Full-time/Half-time work experience
+
+Years
+Company
+Projects
+Title
+Time
+Description
+January 2024 - July 2025
+NDA
+NDA Audiobooks for Woman’s health
+Senior Flutter Mobile Developer
+Full-time
+Responsibilities:- Develop experiments and monetization features that align with the Product team’s requirements.
+- Prioritize delivering high-quality products by ensuring their functionality meets expectations.
+- Monitor Crashlytics and Analytics to ensure that the application in good health
+- Implement new features and experiments based on Figma design and Product requirements
+Achieved:
+
+- Successfully developed several experiments and features
+- Improved overall stability in launching application (introduced startup sequenced logic) which improved User Experience
+- Reduced time of loading for screens from several seconds to several milliseconds.
+- Identified, fixed and prevented several critical crashes (both Android and iOS platforms)
+- Improved and refactored application data layer to make it scalable and reusable across several projects + added unit tests.
+- Introduced several best practices and as collaborative result working with colleagues started talks to action Clubs: Technical Talks (to highlight problems, discuss and integrate best practices, to prototype and discuss future), AI + Design - working techniques to bring Design world with Coding world closer and develop faster, with more quality.
+- Improved accessibility issues for texts, layouts and images
+- Refactored and in short amount of time (1 month) completely reworked custom made Admin panel using Flutter Web.
+- Helped to develop new application with Ad based monetization (initially made ads and app logic setup + architecture)
+- Improved stability of Audio Player (based on just_audio)
+- Reworked, seamlessly integrated and stabilized native Android Audio Mob Ad plugin (OSS, https://github.com/Arenukvern/audiomob-flutter-plugin-fork)
+- Introduced company wide practices and systematic adoption for using AI tools like Cursor, Cline etc.
+- Created AI Knowledge database as a communication tool between Developers and Designers
+- Developed iOS webpay functionality (Paddle), including robust Web App (React JS based) via web view, + logging, crash monitoring, documentation and seamless integration into existing monetization.
+- Thanks to help of colleagues studied and improved work with complex RemoteConfig setup.
+- Thanks to help of colleagues studied how to use analytics in monitoring new features and experiments launch.
+Technologies:Flutter (iOS, Mobile, Web), Firebase Analytics, Firebase Crashlytics, Amplitude, Sentry, just_audio, Datadog, get_it, auto_router, AI tools, n8n, React js, Paddle, Linear, Codemagic, Unit Tests, Golden Tests, Isar, Sembast Db, Material You, Custom Design
+February 2023 - January 2024
+2V Modules
+1. Local Product Marketplace (similar to Amazon, Ozon) (NDA)
+2. Fitness App (NDA)
+Senior Flutter Mobile Developer
+Full-time
+Responsibilities:- Work with Designer and Project Manager to implement user flows, so they would be intuitive and fit exact client requirements
+- Manage small team of developers- Improve application architecture for effective scaling and convenient transfer for Client
+- Listen client feedback to improve application
+- Manage small team of developersAchieved:
+- coded Figma to Code user flows (including creating Chat and complex nested routes with Auto Router)
+- completed marketplace application on time
+- contributed into Developer Culture by setting up coding standards, best practices and sharable packages
+- helped correctly predict time estimates for tasks and projects based on requirements and team
+- monitored and fixed issues using Firebase Analytics and Sentry
+- added codemagic setup
+
+Technologies:
+Flutter, Bloc, GraphQL, Isar, Semabst DB, Notifiers, Human Guidelines, Material You, Crashlytics, ClickUp, Codemagic, Unit tests, Golden Tests
+June 2022 - February 2023
+Refka
+Refka iOS, Android application
+Flutter Mobile Developer
+Part-time
+Joined a team to develop app with main purpose - simplify moodboard creation. https://refka.appResponsibilities:
+- maintain, fix and develop new features accordingly with tasks from Project Manager
+- write readable, sustainable and fail-safe code
+organise and manage developers team (2 app developers, 2 backend developers, 3 app interns)
+- help with technical side to breakdown features & issues for App Founder
+Achieved:
+- optimised a image rendering and editor workflow
+- refactored custom models generation to the freezed
+- refactored custom navigation to simpler custom navigation 2.0
+- helped to organise task management in ClickUp-
+December 2021 - February 2023
+NDA
+NDA
+Flutter Mobile Developer
+Vue.js Web Developer
+per hour. Min - 20 time tracked worked hours in a week
+
+From September - worked as Full-time
+Responsibilities:
+
+- maintain, fix and develop new features accordingly with tasks from Project Manager
+- help QA engineers with manual tests
+- write readable, sustainable and fail-safe codeAchieved:
+
+NDA - MVP mobile (Android + iOS) app for early stage health care startup.
+
+What have been done:
+1. Developed quick prototype UI/UX frames in Figma based on Material 3 You and client requirements.
+2. Initialized mobile app from the ground based on my personal current experience and tools which suited best for the app. For the state management I've used flutter_bloc (business logic), change notifier (business logic), flutter_hooks (ViewModel)
+Made following functionality:
+3. Capturing or choosing video record.
+4. Sending the video record to the server to be handled with special AI algorithm.
+5. Added Firebase Crashlitics, Analytics, Firestore.
+6. Made synchronous points drawing for video records player as a independent layer with CustomPainter + stream (the points are result of video analysis).
+
+NDA - Figma to page web site development (from the scratch to complete website).
+
+NDA sport related application - maintaining.- developed dart-written console utility based on “rename” to change configs for iOS and Android for entire app (including firebase settings, assets, logos, keys etc.)
+- converted to full sound null safety + added retrofit for api calls & freeze for data models
+
+NDA financial app - helped to release and then maintain the whole codebase - (everyday app usage - about 15-20 thousand users)
+- brought type safety and null safety to the app.
+- refactored app architecture to more manageable solution
+- refactored to follow latest strict linter rulesTechnologies:
+Flutter, Firebase, Retrofit, Dio, Freezed, Vue3, SCSS, Figma
+May 2022 - October 2022
+SuchDigital (rebranded Itis.team)
+- Stasher Messenger
+- GoVanLife
+Flutter Mobile Developer
+20 time tracked working hours in a week
+Responsibilities:
+
+- application side only features development, based on Figma designs.
+- work with GitLab.
+- work with Kaiten to update status of tasks and discuss details with team members and clients.Participated and completed projects with a team:
+- “Stasher Messenger” - mobile application (Android, iOS) (maintained several months. developed messaging app component system with offline support, studied basics of Kotlin to implement native share feature)
+- “GoVanLife” - implemented Yandex Map markers rerendering optimisation. Designed from Figma to code several functionalities.Technologies:
+Flutter, Supabase, Freezed, Stacked, Elementary
+May 2021 - May 2022
+Itis.team
+NDA
+Flutter Mobile Developer
+15 time tracked working hours in a week
+Responsibilities:
+
+- application side only features development, based on Figma designs and required tasks.
+- work with GitLab.
+- work with Trello and Kaiten to update status of tasks and discuss details with team members and clientsAchieved:
+- part of team
+- developed skills from basic to intermediate to implement Figma designsParticipated and completed projects with a team:
+- NDA content management mobile application (Android, iOS) (at least half of screens designed and implemented)
+- NDA uber-like taxi mobile application (Android, iOS) (participated in several features)
+- “Stasher Messenger” - mobile application (Android, iOS) (maintained several months. developed messaging app component system with offline support, studied basics of Kotlin to implement native share feature)
+- NDA content admin application (MacOS, Web) (helped to build nested Navigation with Flutter 2.0)Technologies:
+Flutter, Firebase, Supabase, JsonSerializable, Stacked
+May 2021 - December 2021
+Self-employee
+NDA Saas ERP/WMS ecosystem
+Co-Founder, Fullstack Developer
+Full-time
+Achieved:
+
+- Due grant reduction agreed with company owner to continue work as a Co-Founder.
+- Tried to move code from Vue to Flutter to develop application faster and more effectively but failed due wrong headed direction with outside integrations.
+- Failed to provide necessary management for a member of team.
+- Lost last member of the team.
+- Tried to complete project by myself and failed. Project was closed by my initiative due lack of my experience in developer skills required by a team lead role to create effective SaaS infrastructure and a lack of required funding..Technologies:
+Flutter, Vue3, GraphQL, Graphback, Custom codegenerators, Lerna, Docker, Keycloack
+September 2020 - June 2021
+MOTORFIRST
+NDAMVP Saas ERP/WMS ecosystem
+Project manager | Team lead | Frontend Developer
+Full-time
+Lead small-business oriented SaaS app ecosystem development.Responsibilities:
+
+- Prototyping (from ideas to real functionality tested with users)
+- Team building (from candidates searching to learning/teaching)
+- Team/Frontend leadAchieved:
+
+- Due company management change and my unsuccessful management/developer skills have lost a team of developers.
+- Pitched idea to complete commercially internal ERP/WMS to the new company management and failed.
+- Pitched idea to complete ERP/WMS system as SaaS to the new company management and received a grant to develop as commercially independent software.
+- Found and recruited a new team of 3 developers.
+- Failed to scale up and even maintain internal app due used technologies. Lose one team member.
+- Transferred project management to Click Up to manage a team more effectively.
+- With a collaboration of senior backend developer rewrote whole application and a backend architecture and technologies to be able scale and improve readability of code. But lost most of functionality.
+- Successfully tested with end users and integrated the essential part of the system to company business processes.
+- Pitched new MVP to investor, succeed but received reduced grant and have lost senior developer.Technologies:
+Vue3, GraphQL, Graphback, Custom codegenerators, Lerna, Docker, Keycloack
+June 2019 — September 2020
+MOTORFIRST
+NDA
+
+internal MVP
+
+ERP/WMS app
+Head of product management, Team/Tech lead of internal ERP/WMS system
+Full-time
+Responsibilities:
+
+- Full support of e-commerce content management process, including: teaching new content managers how to work, SOP development and business process implementation.Achieved:
+
+- Pitched idea of internal ERP/WMS to the company investor and founder.
+- Received a grant to develop internal ERP/WMS system for the company.
+- Lead a team of 4 developers to build one content ecosystem between CMS/WMS.
+- Studied technologies from the ground to develop the frontend (Javascript & Typescript, Vue.js 2, Scss, css, html + bem + atomic design and architectural patterns)
+- Worked as frontend engineer (Vue.js 2, Typescript)
+- Organised project management in Trello
+- Completed internal ERP/WMS system MVP and integrated to the company business processes.
+- Followed PDSA circle by testing every feature In the app with end user.Technologies:
+Vue2, Javascript, Typescript, Vuetify, Laravel, REST, GraphQL
+February 2018 - June 2019
+MOTORFIRST
+
+E-commerce Category Manager
+Full-time
+Responsibilities:
+
+- maintain full life cycle of e-commerce products: add new products and related content to a warehouse system and website
+- keep stock/price information actualAchieved:
+
+- out of working time, studied by myself first programming language - VBA for Excel.
+- partially at working time, I designed and built efficient VBA engine to format/parse/transfer/edit external supplier and internal big-data formats, to link data into Excel database using worksheets as tables.
+- successfully integrated VBA engine to internal business processes (time of handling data files was reduced from 6-8 hours to 1-5 minutes)
+- instituted QA standard operation procedures for content management.Technologies:
+VBA for Excel
+June 2016 -
+February 2018
+Trade House Vishera
+B2B website
+International Purchase Manager / Category Analyst / Project Manager
+Full-time
+Responsibilities:
+
+- inventory management;
+- procurement planning;
+- control plan / actual procurement;
+- schedule payment to suppliers;
+- external logistics;
+- control of external logistics and customs clearance;
+- new suppliers search;
+- supply arrangements;
+- supply documentation cycle;
+- new shipments ordering;
+- order tracking;
+- analysis of stock goods;
+- help to Product Manager to develop new product (wooden ladders) lines for a hypermarkets (Leroy Merlin, OBI).Achieved:
+
+- improved purchasing process in Excel tables - time of handling data was reduced at least in two times.
+- was assigned as a lead project manager to develop prototype website for B2B. Unfortunately, the project had been closed due lack of company funds after economy crisis.
+August 2015 - November 2015
+F. S. Mackenzie
+
+LCL International Services Manager
+Full-time
+Worked with supply lines for LCL (Less Container Load) shipments from China, India, Germany, USA to Russia (ports STP and VLD) on terms EXW, FCA, FOB.Responsibilities:
+
+- provided inbound and outbound client shipments delivery;
+- completed everyday client invoicing for clients;
+- corrected and checked shipment documents (sea waybill, bill of lading etc.);
+- informed clients and agents during delivery about status of shipment;
+- calculated quotation as per client’s inquiry;
+- assisted in development Delivery Rates for Head of LCL Department;
+- searched new clients for new delivery direction.Achieved:
+
+- made route tariff calculator in google sheets
+- failed to execute the role due lack of skills to work under super high pressure
+
+
+
+Thank you for reading and your time.
+Have a nice day🙂

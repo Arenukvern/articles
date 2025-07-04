@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anton Malofeev - Resume</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
+      body {
+        font-family: "Lato", sans-serif;
+        margin: 0;
+        padding: 40px 20px;
+        background-color: #f5f5f5;
+        color: #222;
+        font-size: 11pt;
+        line-height: 1.4;
+        -webkit-print-color-adjust: exact;
+      }
+      .container {
+        max-width: 8.5in;
+        margin: auto;
+        background: #ffffff;
+        padding: 40px 50px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+      }
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        font-weight: 700;
+        color: #1a1a1a;
+      }
+      h1 {
+        font-size: 26pt;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin-bottom: 4px;
+      }
+      h2 {
+        font-size: 12pt;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 8px;
+        margin-top: 24px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .contact-info {
+        font-size: 11pt;
+        color: #555;
+      }
+      .contact-info a {
+        color: #333;
+        text-decoration: none;
+        transition: color 0.2s ease-in-out;
+      }
+      .contact-info a:hover {
+        color: #0077b5;
+      }
+      .section a {
+        color: #0077b5;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.2s;
+        border-bottom: 1px dotted #a0a0a0;
+      }
+      .section a:hover {
+        color: #005f8c;
+        border-bottom: 1px solid #005f8c;
+      }
+      .contact-info span {
+        margin: 0 8px;
+        color: #ccc;
+      }
+      .section {
+        margin-bottom: 20px;
+      }
+      .job {
+        margin-bottom: 20px;
+      }
+      .job:last-child {
+        margin-bottom: 0;
+      }
+      .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 6px;
+      }
+      .job-title {
+        font-weight: 700;
+        font-size: 12pt;
+      }
+      .job-company {
+        font-weight: 700;
+        color: #555;
+      }
+      #education .job-header {
+        align-items: baseline;
+        margin-bottom: 0px;
+      }
+
+      #education .job {
+        margin-bottom: 10px;
+      }
+
+      #education .job {
+        border-left: 2px solid #eee;
+        padding-left: 10px;
+      }
+
+      #education .job-body {
+        font-style: italic;
+        color: #666;
+      }
+      #education .job-company {
+        color: #666;
+      }
+      .job-date {
+        font-style: normal;
+        color: #777;
+        font-size: 10pt;
+        white-space: nowrap;
+        padding-left: 15px;
+      }
+      ul {
+        padding-left: 20px;
+        margin: 0;
+        list-style-position: outside;
+      }
+      li {
+        margin-bottom: 5px;
+        color: #444;
+      }
+      .skills-section ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+      .skills-section li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 8px;
+        padding-left: 10px;
+      }
+      .skills-section strong {
+        display: inline-block;
+        text-align: right;
+        margin-right: 10px;
+        width: 100px;
+        font-weight: 700;
+        flex-shrink: 0;
+        align-self: center;
+      }
+
+      @media print {
+        body {
+          padding: 0;
+          font-size: 10pt;
+          background-color: #fff;
+        }
+        .container {
+          max-width: 100%;
+          padding: 20px;
+          box-shadow: none;
+        }
+        h1 {
+          font-size: 24pt;
+        }
+        h2 {
+          font-size: 11pt;
+          padding-bottom: 4px;
+          margin-top: 20px;
+          border-color: #ddd;
+        }
+        .contact-info a,
+        .section a {
+          color: #0077b5;
+          text-decoration: none;
+          border-bottom: none;
+        }
+        .contact-info a {
+          color: #333;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Anton Malofeev</h1>
+        <div class="contact-info">
+          <a href="mailto:anton@xsoulspace.dev">anton@xsoulspace.dev</a>
+          <span>&middot;</span>
+          <a href="https://github.com/arenukvern" target="_blank">GitHub</a>
+          <span>&middot;</span>
+          <a href="https://linkedin.com/in/antmalofeev" target="_blank"
+            >LinkedIn</a
+          >
+          <span>&middot;</span>
+          <!-- <a href="https://xsoulspace.dev" target="_blank">Portfolio</a> | -->
+          GMT+3, Remote (Saint Petersburg, Russia)
+        </div>
+      </div>
+
+      <div class="section" id="summary">
+        <h2>About</h2>
+        <p style="margin-top: 8px">
+          Hi, I'm quality-oriented Software (Flutter) Architect with expertise
+          in UX design. I believe that the app should be simple, focused and
+          worth of people time who is using it and the best way to deliver this
+          value is through care, innovation, rapid prototyping and collaboration
+          between designers, developers, end-user and AI tools (I'm using Cursor
+          + Cline). As a foundation of my work I'm using ethical principles and
+          passion. Please read more about my principles
+          <a
+            href="https://medium.com/@antmalofeev/my-principles-at-work-credo-409d2d5da6f5"
+            target="_blank"
+          >
+            here.</a
+          >
+        </p>
+      </div>
+
+      <div class="section" id="experience">
+        <h2>Work Experience</h2>
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <div class="job-title">Flutter Consultant</div>
+              <div class="job-company">NDA - Audiobooks for Woman’s health</div>
+            </div>
+            <div class="job-date">January 2024 - July 2025</div>
+          </div>
+          <ul>
+            <li>
+              Developed experiments and monetization features (web-pay (iOS,
+              Paddle, React), in collaboration initial version of ads
+              (AppLovin)), prioritizing high-quality features delivery and
+              launching experiments based on Product requirements. Worked on
+              accessibility features.
+            </li>
+            <li>
+              Monitored Crashlytics, Analytics, Amplitude to ensure application
+              health; improved app stability introducing a new startup sequence.
+            </li>
+            <li>
+              Reduced screen loading times from seconds to milliseconds; fixed &
+              prevented several critical crashes. Refactored, stabilized,
+              integrated a native Android Audio Mob plugin.
+            </li>
+            <li>
+              Refactored the data layer for scalability and reusability; added
+              unit tests.
+            </li>
+            <li>
+              Pushed practices for AI tools (Cursor, Cline); improved team
+              collaboration by pitching "talk to action collaborations".
+            </li>
+            <li>Refactored from ground up a custom Flutter Web admin panel</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <div class="job-title">Senior Flutter Developer</div>
+              <div class="job-company">
+                2V Modules (Local Marketplace & Fitness App)
+              </div>
+            </div>
+            <div class="job-date">February 2023 - January 2024</div>
+          </div>
+          <ul>
+            <li>
+              Improved applications architecture for scalability and established
+              team-wide coding standards.
+            </li>
+            <li>
+              Implemented intuitive user flows from Figma designs, including
+              chat and complex nested routing accordingly to Client
+              requirements. Led a 2 flutter developers to support the projects.
+            </li>
+            <li>Completed local marketplace application on time.</li>
+            <li>
+              Managed tasks and monitored issues using Firebase Analytics and
+              Sentry. Helped with calculating the time prediction for the
+              complex projects and tasks.
+            </li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <div class="job-title">Flutter & Vue.js Developer</div>
+              <div class="job-company">
+                NDA (Health Care & Finance Startups)
+              </div>
+            </div>
+            <div class="job-date">December 2021 - February 2023</div>
+          </div>
+          <ul>
+            <li>
+              Developed a mobile MVP for a health-tech startup, including video
+              capture and synchronous data-point drawing on a video player.
+            </li>
+            <li>
+              Built a complete website from scratch based on Figma designs.
+            </li>
+            <li>
+              Maintained a financial app with ~20k monthly users, improved its
+              architecture and migrated to null-safety.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section" id="full-resume">
+        <h2>VISIT FULL RESUME</h2>
+        <p style="margin-top: 8px">
+          For a complete version of my resume please visit
+          <a
+            href="https://gem-ballcap-5ba.notion.site/Software-Architect-Flutter-with-UX-AI-skills-de591fefac65424a8c5a647b88e79ab9?source=copy_link"
+            target="_blank"
+          >
+            page on Notion</a
+          >.
+        </p>
+      </div>
+
+      <div class="section" id="education">
+        <h2>Education & Certifications</h2>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">
+              Moscow State Academy of Water Transport (MSAWT)
+            </div>
+            <div class="job-date">2015 - 2017</div>
+          </div>
+          <div class="job-body">
+            Master's degree, Transport and technological machines and systems
+            operations
+          </div>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">
+              Moscow State Academy of Water Transport (MSAWT)
+            </div>
+            <div class="job-date">2011 - 2015</div>
+          </div>
+          <div class="job-body">
+            Bachelor's degree, Transport Process Technology
+          </div>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">Hugging Face</div>
+            <div class="job-date">February 2025</div>
+          </div>
+          <div class="job-body">AI Agents Fundamentals (Certificate)</div>
+        </div>
+      </div>
+
+      <div class="section" id="projects">
+        <h2>Personal Projects</h2>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">Last Answer: ideas & notes (Flutter)</div>
+            <div class="job-date">April 2020 - Present</div>
+          </div>
+          <ul>
+            <li>
+              Cross-platform application for notes and ideas, released on Google
+              Play, Apple Store, Microsoft Store, and web.
+            </li>
+            <li>Currently used by ~50 people daily.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">Word By Word Game</div>
+            <div class="job-date">October 2020 - Present</div>
+          </div>
+          <ul>
+            <li>
+              A simple, self-educative word game, released on Google Play,
+              Snapcraft, and web.
+            </li>
+            <li>Currently used by ~160 people daily.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">Office JS Interop for Dart</div>
+            <div class="job-date">July 2019 - May 2022</div>
+          </div>
+          <ul>
+            <li>
+              An unofficial open-source wrapper for Office.js, enabling Office
+              Add-in development with Dart and Flutter.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section" id="skills">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-section">
+          <ul>
+            <li>
+              <strong>Languages</strong>
+              <span
+                >Dart, (Kotlin, Swift for native plugins), TypeScript (for web),
+                Python (for bots)</span
+              >
+            </li>
+            <li>
+              <strong>State</strong>
+              <span>Notifiers, BLoC, Riverpod, States Rebuilder</span>
+            </li>
+            <li>
+              <strong>DI</strong>
+              <span>Provider, GetIt</span>
+            </li>
+            <li>
+              <strong>Router</strong>
+              <span>Navigator 2.0, GoRouter, AutoRouter</span>
+            </li>
+            <li>
+              <strong>Backend & DB</strong>
+              <span>REST, GraphQL, Isar, Sembast, Supabase, PostgreSQL</span>
+            </li>
+            <li>
+              <strong>AI & Automation</strong>
+              <span
+                >AI Agent Tooling (Cursor, Cline), Prompt Engineering, Custom
+                Code Generation, n8n</span
+              >
+            </li>
+            <li>
+              <strong>Tooling & CI/CD</strong>
+              <span
+                >Docker, Git, Codemagic, GitHub Actions, Sentry, Datadog,
+                Amplitude</span
+              >
+            </li>
+            <li>
+              <strong>Design</strong>
+              <span
+                >Material You, Human Interface Guidelines, Prompt Guides</span
+              >
+            </li>
+            <li>
+              <strong>Frameworks</strong>
+              <span>Flutter (Main), (Vue.js (3 & 2), React.js, Node.js)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script>
+      // JS can be added here if interactivity is needed in the web version.
+    </script>
+  </body>
+</html>
