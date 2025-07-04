@@ -3,411 +3,359 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume - Anton Malofeev</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <title>Anton Malofeev - Resume</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap");
       body {
-        font-family: "Inter", sans-serif;
-        background-color: #f8f9fa;
+        font-family: "Lato", sans-serif;
+        margin: 0;
+        padding: 40px;
+        background-color: #ffffff;
+        color: #1a1a1a;
+        font-size: 11pt;
+        line-height: 1.5;
+        -webkit-print-color-adjust: exact;
+      }
+      .container {
+        max-width: 8.5in;
+        margin: auto;
       }
       h1,
       h2,
-      h3,
-      h4 {
-        font-family: "Lora", serif;
+      h3 {
+        margin: 0;
+        font-weight: 700;
       }
-      .resume-container {
-        max-width: 8.5in;
-        min-height: 11in;
-        margin: auto;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-      }
-      .section-divider {
-        background: #e9ecef;
-        height: 1px;
-        margin: 1rem 0;
-      }
-      .page-divider {
+      h1 {
+        font-size: 28pt;
+        letter-spacing: 2px;
         text-align: center;
-        margin: 2rem 0;
-        border-bottom: 1px dashed #ced4da;
-        line-height: 0.1em;
       }
-      .page-divider span {
-        background: #fff;
-        padding: 0 15px;
-        color: #adb5bd;
-        font-size: 0.8rem;
-        font-family: sans-serif;
-        letter-spacing: 1px;
+      h2 {
+        font-size: 12pt;
+        border-bottom: 2px solid #1a1a1a;
+        padding-bottom: 6px;
+        margin-top: 24px;
         text-transform: uppercase;
+        letter-spacing: 1px;
       }
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .contact-info {
+        font-size: 11pt;
+        color: #333;
+      }
+      .contact-info a {
+        color: #0077b5;
+        text-decoration: none;
+      }
+      .contact-info a:hover {
+        text-decoration: underline;
+      }
+      .section {
+        margin-bottom: 16px;
+      }
+      .job {
+        margin-bottom: 16px;
+      }
+      .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+      .job-title {
+        font-weight: 700;
+        font-size: 12pt;
+      }
+      .job-company {
+        font-weight: 700;
+      }
+      .job-date,
+      .job-location {
+        font-style: italic;
+        color: #555;
+        font-size: 10pt;
+      }
+      ul {
+        padding-left: 20px;
+        margin-top: 5px;
+      }
+      li {
+        margin-bottom: 4px;
+      }
+      .skills-section ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+      .skills-section li {
+        margin-bottom: 8px;
+      }
+      .skills-section strong {
+        display: inline-block;
+        width: 140px;
+        font-weight: 700;
+      }
+
       @media print {
-        .no-print {
-          display: none;
-        }
         body {
-          margin: 0;
-          padding: 0;
-          background-color: #fff;
+          padding: 20px;
+          font-size: 10pt;
         }
-        .resume-container {
-          box-shadow: none;
-          margin: 0;
-          border: none;
+        .container {
           max-width: 100%;
-          padding: 0.5in !important;
         }
-        .section-divider {
-          margin: 0.75rem 0;
+        h1 {
+          font-size: 24pt;
         }
-        .page-divider {
-          page-break-after: always;
-          height: 0;
-          margin: 0;
-          border: 0;
-        }
-        .page-divider span {
-          display: none;
+        h2 {
+          font-size: 11pt;
+          padding-bottom: 4px;
+          margin-top: 20px;
         }
       }
     </style>
   </head>
-  <body class="py-4 sm:py-8 px-4">
-    <!-- Download Button -->
-    <div class="no-print text-center mb-8">
-      <button
-        id="download-pdf"
-        class="bg-gray-700 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-gray-800 transition-all duration-300"
-      >
-        Download as PDF
-      </button>
-    </div>
-
-    <!-- Resume Content -->
-    <div id="resume" class="resume-container bg-white p-8 sm:p-12">
-      <header class="text-center pb-8 mb-8">
-        <h1 class="text-5xl font-bold text-gray-900 mb-2">Anton Malofeev</h1>
-        <p class="text-xl text-gray-600 mb-5">
-          Software Architect (Flutter) with UX & AI skills
-        </p>
-        <div
-          class="flex justify-center flex-wrap gap-x-6 gap-y-2 text-sm text-gray-500"
-        >
-          <a
-            href="mailto:anton@xsoulspace.dev"
-            class="hover:text-gray-900 transition-colors"
-            >anton@xsoulspace.dev</a
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Anton Malofeev</h1>
+        <div class="contact-info">
+          <a href="mailto:anton@xsoulspace.dev">anton@xsoulspace.dev</a> |
+          <a href="https://github.com/arenukvern" target="_blank">GitHub</a> |
+          <a href="https://linkedin.com/in/antmalofeev" target="_blank"
+            >LinkedIn</a
           >
-          <a
-            href="https://t.me/arenukvern"
-            target="_blank"
-            class="hover:text-gray-900 transition-colors"
-            >t.me/arenukvern</a
-          >
-          <a
-            href="http://linkedin.com/in/antmalofeev/"
-            target="_blank"
-            class="hover:text-gray-900 transition-colors"
-            >linkedin.com/in/antmalofeev</a
-          >
-          <a
-            href="https://github.com/arenukvern"
-            target="_blank"
-            class="hover:text-gray-900 transition-colors"
-            >github.com/arenukvern</a
-          >
+          |
+          <!-- <a href="https://xsoulspace.dev" target="_blank">Portfolio</a> | -->
+          GMT+3, Remote (Saint Petersburg, Russia)
         </div>
-      </header>
+      </div>
 
-      <main class="space-y-10">
-        <!-- Summary Section -->
-        <section>
-          <h2 class="text-2xl font-bold text-gray-800 mb-3">Summary</h2>
-          <div class="section-divider"></div>
-          <p class="text-gray-700 leading-relaxed text-base">
-            Hi! I'm product-focused Software Architect specializing in Flutter,
-            using strong ethical principles and a passion as foundation to build
-            user-centric design with the teams. I believe in creating value
-            through care and innovation, leveraging AI and rapid prototyping to
-            build simple, focused applications that are worth people's time.
-          </p>
-        </section>
-
-        <!-- Skills Section -->
-        <section>
-          <h2 class="text-2xl font-bold text-gray-800 mb-3">
-            Core Competencies
-          </h2>
-          <div class="section-divider"></div>
-          <div class="space-y-4 text-sm">
-            <div>
-              <h3 class="font-semibold text-gray-800 mb-1">Flutter & Dart</h3>
-              <p class="text-gray-600 leading-relaxed">
-                App & Game Architecture &bull; State (Notifier, Bloc, Riverpod,
-                States Rebuilder etc..) &bull; DI (Provider, GetIt) & Code
-                Generation &bull; Firebase (Remote Config, Analytics,
-                Crashlytics, A/B tests), Amplitude, Sentry, DataDog &bull;
-                Monetization (IAP (Google Play, App Store), Ads (AppLovin),
-                Web-pay (Paddle for iOS)) &bull; Material You &bull; Desktop &
-                Web Accessibility &bull; Native (Kotlin, Swift) based plugins
-                (pigeon based)
-              </p>
-            </div>
-            <div>
-              <h3 class="font-semibold text-gray-800 mb-1">AI & Design</h3>
-              <p class="text-gray-600 leading-relaxed">
-                AI Tooling & Prompting (Cursor, Cline) &bull; Figma to Code
-                Workflows &bull; Custom Design Systems (Figma, Prompt Guides)
-                &bull; Automation (n8n)
-              </p>
-            </div>
-            <div>
-              <h3 class="font-semibold text-gray-800 mb-1">Web & Backend</h3>
-              <p class="text-gray-600 leading-relaxed">
-                TypeScript, React.js, Vue.js (2,3) &bull; Node.js, Docker,
-                Python &bull; REST, GraphQL &bull; CI/CD (Codemagic, GitHub
-                Actions) &bull; WebRTC, WebSocket, WebSocket Streams
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <div id="page-divider"><span></span></div>
-
-        <!-- Experience Section -->
-        <section>
-          <h2 class="text-2xl font-bold text-gray-800 mb-3">
-            Professional Experience
-          </h2>
-          <div class="section-divider"></div>
-          <div class="space-y-6">
-            <div class="pl-4 border-l-2 border-gray-200">
-              <div
-                class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-1"
-              >
-                <div>
-                  <h3 class="text-lg font-semibold text-gray-900">
-                    Flutter Consultant
-                  </h3>
-                  <h4 class="text-base text-gray-700">
-                    NDA - Audiobooks for Woman’s Health
-                  </h4>
-                </div>
-                <span class="text-sm text-gray-500 mt-1 sm:mt-0"
-                  >Jan 2024 - July 2025</span
-                >
-              </div>
-              <ul
-                class="list-disc list-outside ml-5 text-sm text-gray-600 space-y-1 mt-2"
-              >
-                <li>
-                  Improved app stability and screen load times by
-                  re-architecting data layers and startup sequences.
-                </li>
-                <li>
-                  Introduced company-wide best practices for using AI tools
-                  (Cursor, Cline) and established an AI knowledge base.
-                </li>
-                <li>
-                  Developed key monetization features, including ads (Applovin)
-                  and a React-based web-pay system (Paddle).
-                </li>
-                <li>
-                  Reworked a custom Flutter Web admin panel and stabilized a
-                  native Android audio ad plugin.
-                </li>
-              </ul>
-            </div>
-
-            <div class="pl-4 border-l-2 border-gray-200">
-              <div
-                class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-1"
-              >
-                <div>
-                  <h3 class="text-lg font-semibold text-gray-900">
-                    Senior Flutter Mobile Developer
-                  </h3>
-                  <h4 class="text-base text-gray-700">
-                    2V Modules (Local Marketplace & Fitness App)
-                  </h4>
-                </div>
-                <span class="text-sm text-gray-500 mt-1 sm:mt-0"
-                  >Feb 2023 - Jan 2024</span
-                >
-              </div>
-              <ul
-                class="list-disc list-outside ml-5 text-sm text-gray-600 space-y-1 mt-2"
-              >
-                <li>
-                  Translated Figma designs into functional user flows, including
-                  chat and complex nested routing with Auto Router.
-                </li>
-                <li>
-                  Managed project timelines and fixed issues using Firebase
-                  Analytics and Sentry.
-                </li>
-                <li>
-                  Led a small team (2 devs), improving application architecture
-                  and setting up coding standards.
-                </li>
-              </ul>
-            </div>
-
-            <div class="pl-4 border-l-2 border-gray-200">
-              <div
-                class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-1"
-              >
-                <div>
-                  <h3 class="text-lg font-semibold text-gray-900">
-                    Flutter Mobile Developer
-                  </h3>
-                  <h4 class="text-base text-gray-700">
-                    Refka (Moodboard Creation App)
-                  </h4>
-                </div>
-                <span class="text-sm text-gray-500 mt-1 sm:mt-0"
-                  >June 2022 - Feb 2023</span
-                >
-              </div>
-              <ul
-                class="list-disc list-outside ml-5 text-sm text-gray-600 space-y-1 mt-2"
-              >
-                <li>
-                  Organized and managed a team of developers and interns to
-                  maintain and develop new features.
-                </li>
-                <li>
-                  Optimized image rendering and editor workflows, significantly
-                  improving performance.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <div id="page-divider"><span></span></div>
-
-        <!-- Education & Certifications Section -->
-        <section>
-          <h2 class="text-2xl font-bold text-gray-800 mb-3">
-            Education & Certifications
-          </h2>
-          <div class="section-divider"></div>
-          <div class="space-y-4">
-            <div
-              class="flex flex-col sm:flex-row sm:justify-between sm:items-start"
-            >
-              <div>
-                <h3 class="font-semibold text-gray-800">
-                  AI Agents Fundamentals
-                </h3>
-                <p class="text-sm text-gray-600">
-                  Hugging Face
-                  <a
-                    href="https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/arenukvern/2025-02-20.png"
-                    target="_blank"
-                    class="text-gray-500 hover:text-gray-900 underline ml-2"
-                  >
-                    (View Certificate)
-                  </a>
-                </p>
-              </div>
-              <p class="text-sm text-gray-500 mt-1 sm:mt-0">Feb 2025</p>
-            </div>
-            <div
-              class="flex flex-col sm:flex-row sm:justify-between sm:items-start"
-            >
-              <div>
-                <h3 class="font-semibold text-gray-800">
-                  Master's degree, Transport and technological machines and
-                  systems operations
-                </h3>
-                <p class="text-sm text-gray-600">
-                  Moscow State Academy of Water Transport (MSAWT)
-                </p>
-              </div>
-              <p class="text-sm text-gray-500 mt-1 sm:mt-0">2015 - 2017</p>
-            </div>
-            <div
-              class="flex flex-col sm:flex-row sm:justify-between sm:items-start"
-            >
-              <div>
-                <h3 class="font-semibold text-gray-800">
-                  Bachelor's degree, Transport Process Technology
-                </h3>
-                <p class="text-sm text-gray-600">
-                  Moscow State Academy of Water Transport (MSAWT)
-                </p>
-              </div>
-              <p class="text-sm text-gray-500 mt-1 sm:mt-0">2011 - 2015</p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section>
-          <h2 class="text-2xl font-bold text-gray-800 mb-3">
-            Personal Projects
-          </h2>
-          <div class="section-divider"></div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 text-sm">
-            <div>
-              <h3 class="font-semibold text-gray-800">
-                Last Answer: ideas & notes
-              </h3>
-              <p class="text-gray-600">
-                Cross-platform (iOS, Android, Web, Desktop) Flutter app for
-                notes. Daily usage of ~50 people.
-              </p>
-            </div>
-            <div>
-              <h3 class="font-semibold text-gray-800">Word By Word Game</h3>
-              <p class="text-gray-600">
-                A simple, self-educative word game built with Flutter. Daily
-                usage of ~160 people.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="pt-8 text-center">
+      <div class="section" id="summary">
+        <h2>About</h2>
+        <p style="margin-top: 8px">
+          Hi, I'm quality-oriented Software (Flutter) Architect with expertise
+          in UX design. I believe that the app should be simple, focused and
+          worth of people time who is using it and the best way to deliver this
+          value is through care, innovation, rapid prototyping and collaboration
+          between designers, developers, end-user and AI tools (using Cursor +
+          Cline). As a foundation of my work I'm using ethical principles and
+          passion. Please read more about my principles
           <a
-            href="https://www.notion.so/Software-Architect-Flutter-with-UX-AI-skills-de591fefac65424a8c5a647b88e79ab9$0"
+            href="https://medium.com/@antmalofeev/my-principles-at-work-credo-409d2d5da6f5"
             target="_blank"
-            class="text-gray-500 hover:text-gray-900 text-sm font-medium transition-colors"
           >
-            View Full Resume on Notion
-          </a>
-        </footer>
-      </main>
+            here.</a
+          >
+        </p>
+      </div>
+
+      <div class="section" id="experience">
+        <h2>Work Experience</h2>
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <div class="job-title">Flutter Consultant</div>
+              <div class="job-company">NDA - Audiobooks for Woman’s health</div>
+            </div>
+            <div class="job-date">January 2024 - July 2025</div>
+          </div>
+          <ul>
+            <li>
+              Developed experiments and monetization features (web-pay (iOS,
+              Paddle, React), in collaboration initial version of ads
+              (AppLovin)), prioritizing high-quality features delivery and
+              launching experiments based on Product requirements. Worked on
+              accessibility features.
+            </li>
+            <li>
+              Monitored Crashlytics, Analytics, Amplitude to ensure application
+              health; improved app stability introducing a new startup sequence.
+            </li>
+            <li>
+              Reduced screen loading times from seconds to milliseconds; fixed &
+              prevented several critical crashes. Refactored, stabilized,
+              integrated a native Android Audio Mob plugin.
+            </li>
+            <li>
+              Refactored the data layer for scalability and reusability; added
+              unit tests.
+            </li>
+            <li>
+              Pushed practices for AI tools (Cursor, Cline); improved team
+              collaboration by pitching "talk to action collaborations".
+            </li>
+            <li>Refactored from ground up a custom Flutter Web admin panel</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <div class="job-title">Senior Flutter Developer</div>
+              <div class="job-company">
+                2V Modules (Local Marketplace & Fitness App)
+              </div>
+            </div>
+            <div class="job-date">February 2023 - January 2024</div>
+          </div>
+          <ul>
+            <li>
+              Improved applications architecture for scalability and established
+              team-wide coding standards.
+            </li>
+            <li>
+              Implemented intuitive user flows from Figma designs, including
+              chat and complex nested routing accordingly to Client
+              requirements. Led a 2 flutter developers to support the projects.
+            </li>
+            <li>Completed local marketplace application on time.</li>
+            <li>
+              Managed tasks and monitored issues using Firebase Analytics and
+              Sentry. Helped with calculating the time prediction for the
+              complex projects and tasks.
+            </li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div>
+              <div class="job-title">Flutter & Vue.js Developer</div>
+              <div class="job-company">
+                NDA (Health Care & Finance Startups)
+              </div>
+            </div>
+            <div class="job-date">December 2021 - February 2023</div>
+          </div>
+          <ul>
+            <li>
+              Developed a mobile MVP for a health-tech startup, including video
+              capture and synchronous data-point drawing on a video player.
+            </li>
+            <li>
+              Built a complete website from scratch based on Figma designs.
+            </li>
+            <li>
+              Maintained a financial app with ~20k monthly users, improved its
+              architecture and migrated to null-safety.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section" id="full-resume">
+        <h2>Read Full Resume</h2>
+        <p style="margin-top: 8px">
+          For a complete version of my resume please visit
+          <a
+            href="https://gem-ballcap-5ba.notion.site/Software-Architect-Flutter-with-UX-AI-skills-de591fefac65424a8c5a647b88e79ab9?source=copy_link"
+            target="_blank"
+          >
+            page on Notion</a
+          >.
+        </p>
+      </div>
+
+      <div class="section" id="projects">
+        <h2>Personal Projects</h2>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">Last Answer: ideas & notes (Flutter)</div>
+            <div class="job-date">April 2020 - Present</div>
+          </div>
+          <ul>
+            <li>
+              Cross-platform application for notes and ideas, released on Google
+              Play, Apple Store, Microsoft Store, and web.
+            </li>
+            <li>Currently used by ~50 people daily.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">Word By Word Game</div>
+            <div class="job-date">October 2020 - Present</div>
+          </div>
+          <ul>
+            <li>
+              A simple, self-educative word game, released on Google Play,
+              Snapcraft, and web.
+            </li>
+            <li>Currently used by ~160 people daily.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">Office JS Interop for Dart</div>
+            <div class="job-date">July 2019 - May 2022</div>
+          </div>
+          <ul>
+            <li>
+              An unofficial open-source wrapper for Office.js, enabling Office
+              Add-in development with Dart and Flutter.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section" id="skills">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-section">
+          <ul>
+            <li>
+              <strong>Languages:</strong>
+              <span
+                >Dart, (Kotlin, Swift for native plugins), TypeScript (for web),
+                Python (for bots)</span
+              >
+            </li>
+            <li>
+              <strong>State:</strong>
+              <span>Notifiers, BLoC, Riverpod, Stacked, States Rebuilder</span>
+            </li>
+            <li>
+              <strong>DI:</strong>
+              <span>Provider, GetIt</span>
+            </li>
+            <li>
+              <strong>Router:</strong>
+              <span>Navigator 2.0, GoRouter, AutoRouter</span>
+            </li>
+            <li>
+              <strong>Backend & DB:</strong>
+              <span>REST, GraphQL, Isar, Sembast, Supabase, PostgreSQL</span>
+            </li>
+            <li>
+              <strong>AI & Automation:</strong>
+              <span
+                >AI Agent Tooling (Cursor, Cline), Prompt Engineering, Custom
+                Code Generation, n8n</span
+              >
+            </li>
+            <li>
+              <strong>Tooling & CI/CD:</strong>
+              <span
+                >Docker, Git, Codemagic, GitHub Actions, Sentry, Datadog,
+                Amplitude</span
+              >
+            </li>
+            <li>
+              <strong>Design:</strong>
+              <span
+                >Material You, Human Interface Guidelines, Prompt Guides</span
+              >
+            </li>
+            <li>
+              <strong>Frameworks:</strong>
+              <span>Flutter (Main), (Vue.js (3 & 2), React.js, Node.js)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-
     <script>
-      // --- PDF Download Functionality ---
-      document
-        .getElementById("download-pdf")
-        .addEventListener("click", function () {
-          const element = document.getElementById("resume");
-
-          const opt = {
-            margin: [0.5, 0.5, 0.5, 0.5],
-            filename: "Anton_Malofeev_Resume.pdf",
-            image: { type: "jpeg", quality: 1.0 },
-            html2canvas: { scale: 3, useCORS: true },
-            jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
-          };
-
-          html2pdf().from(element).set(opt).save();
-        });
+      // JS can be added here if interactivity is needed in the web version.
     </script>
   </body>
 </html>
