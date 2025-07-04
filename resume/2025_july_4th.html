@@ -6,64 +6,80 @@
     <title>Anton Malofeev - Resume</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
       body {
         font-family: "Lato", sans-serif;
         margin: 0;
-        padding: 40px;
-        background-color: #ffffff;
-        color: #1a1a1a;
+        padding: 40px 20px;
+        background-color: #f5f5f5;
+        color: #222;
         font-size: 11pt;
-        line-height: 1.5;
+        line-height: 1.4;
         -webkit-print-color-adjust: exact;
       }
       .container {
         max-width: 8.5in;
         margin: auto;
+        background: #ffffff;
+        padding: 40px 50px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
       }
       h1,
       h2,
       h3 {
         margin: 0;
         font-weight: 700;
+        color: #1a1a1a;
       }
       h1 {
-        font-size: 28pt;
-        letter-spacing: 2px;
+        font-size: 26pt;
+        letter-spacing: 1.5px;
         text-align: center;
+        margin-bottom: 4px;
       }
       h2 {
         font-size: 12pt;
-        border-bottom: 2px solid #1a1a1a;
-        padding-bottom: 6px;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 8px;
         margin-top: 24px;
+        margin-bottom: 20px;
         text-transform: uppercase;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
       }
       .header {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
       }
       .contact-info {
         font-size: 11pt;
-        color: #333;
+        color: #555;
       }
       .contact-info a {
-        color: #0077b5;
+        color: #333;
         text-decoration: none;
+        transition: color 0.2s ease-in-out;
       }
       .contact-info a:hover {
-        text-decoration: underline;
+        color: #0077b5;
+      }
+      .contact-info span {
+        margin: 0 8px;
+        color: #ccc;
       }
       .section {
-        margin-bottom: 16px;
+        margin-bottom: 20px;
       }
       .job {
-        margin-bottom: 16px;
+        margin-bottom: 20px;
+      }
+      .job:last-child {
+        margin-bottom: 0;
       }
       .job-header {
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: flex-start;
+        margin-bottom: 6px;
       }
       .job-title {
         font-weight: 700;
@@ -71,40 +87,73 @@
       }
       .job-company {
         font-weight: 700;
-      }
-      .job-date,
-      .job-location {
-        font-style: italic;
         color: #555;
+      }
+      #education .job-header {
+        align-items: baseline;
+        margin-bottom: 0px;
+      }
+
+      #education .job {
+        margin-bottom: 10px;
+      }
+
+      #education .job {
+        border-left: 2px solid #eee;
+        padding-left: 10px;
+      }
+
+      #education .job-body {
+        font-style: italic;
+        color: #666;
+      }
+      #education .job-company {
+        color: #666;
+      }
+      .job-date {
+        font-style: normal;
+        color: #777;
         font-size: 10pt;
+        white-space: nowrap;
+        padding-left: 15px;
       }
       ul {
         padding-left: 20px;
-        margin-top: 5px;
+        margin: 0;
+        list-style-position: outside;
       }
       li {
-        margin-bottom: 4px;
+        margin-bottom: 5px;
+        color: #444;
       }
       .skills-section ul {
         list-style-type: none;
         padding-left: 0;
       }
       .skills-section li {
+        display: flex;
+        align-items: flex-start;
         margin-bottom: 8px;
+        padding-left: 10px;
+        border-left: 2px solid #eee;
       }
       .skills-section strong {
         display: inline-block;
         width: 140px;
         font-weight: 700;
+        flex-shrink: 0;
       }
 
       @media print {
         body {
-          padding: 20px;
+          padding: 0;
           font-size: 10pt;
+          background-color: #fff;
         }
         .container {
           max-width: 100%;
+          padding: 20px;
+          box-shadow: none;
         }
         h1 {
           font-size: 24pt;
@@ -113,6 +162,10 @@
           font-size: 11pt;
           padding-bottom: 4px;
           margin-top: 20px;
+          border-color: #ddd;
+        }
+        .contact-info a {
+          color: #333;
         }
       }
     </style>
@@ -122,12 +175,14 @@
       <div class="header">
         <h1>Anton Malofeev</h1>
         <div class="contact-info">
-          <a href="mailto:anton@xsoulspace.dev">anton@xsoulspace.dev</a> |
-          <a href="https://github.com/arenukvern" target="_blank">GitHub</a> |
+          <a href="mailto:anton@xsoulspace.dev">anton@xsoulspace.dev</a>
+          <span>&middot;</span>
+          <a href="https://github.com/arenukvern" target="_blank">GitHub</a>
+          <span>&middot;</span>
           <a href="https://linkedin.com/in/antmalofeev" target="_blank"
             >LinkedIn</a
           >
-          |
+          <span>&middot;</span>
           <!-- <a href="https://xsoulspace.dev" target="_blank">Portfolio</a> | -->
           GMT+3, Remote (Saint Petersburg, Russia)
         </div>
@@ -255,6 +310,40 @@
             page on Notion</a
           >.
         </p>
+      </div>
+
+      <div class="section" id="education">
+        <h2>Education & Certifications</h2>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">
+              Moscow State Academy of Water Transport (MSAWT)
+            </div>
+            <div class="job-date">2015 - 2017</div>
+          </div>
+          <div class="job-body">
+            Master's degree, Transport and technological machines and systems
+            operations
+          </div>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">
+              Moscow State Academy of Water Transport (MSAWT)
+            </div>
+            <div class="job-date">2011 - 2015</div>
+          </div>
+          <div class="job-body">
+            Bachelor's degree, Transport Process Technology
+          </div>
+        </div>
+        <div class="job">
+          <div class="job-header">
+            <div class="job-company">Hugging Face</div>
+            <div class="job-date">February 2025</div>
+          </div>
+          <div class="job-body">AI Agents Fundamentals (Certificate)</div>
+        </div>
       </div>
 
       <div class="section" id="projects">
