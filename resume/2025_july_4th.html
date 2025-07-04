@@ -34,6 +34,21 @@
         height: 1px;
         margin: 1rem 0;
       }
+      .page-divider {
+        text-align: center;
+        margin: 2rem 0;
+        border-bottom: 1px dashed #ced4da;
+        line-height: 0.1em;
+      }
+      .page-divider span {
+        background: #fff;
+        padding: 0 15px;
+        color: #adb5bd;
+        font-size: 0.8rem;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
       @media print {
         .no-print {
           display: none;
@@ -52,6 +67,15 @@
         }
         .section-divider {
           margin: 0.75rem 0;
+        }
+        .page-divider {
+          page-break-after: always;
+          height: 0;
+          margin: 0;
+          border: 0;
+        }
+        .page-divider span {
+          display: none;
         }
       }
     </style>
@@ -155,6 +179,8 @@
             </div>
           </div>
         </section>
+
+        <div id="page-divider"><span></span></div>
 
         <!-- Experience Section -->
         <section>
@@ -266,6 +292,8 @@
             </div>
           </div>
         </section>
+
+        <div id="page-divider"><span></span></div>
 
         <!-- Education & Certifications Section -->
         <section>
