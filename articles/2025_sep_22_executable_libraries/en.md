@@ -49,6 +49,37 @@ As first thing, let's establish meta rules to create and modify files of AE:
 3. Usage creation.
 4. Uninstallation creation.
 
+With all of that, let's define the principles of working with AE.
+
+# Working principles:
+
+The core idea is to pass meta rules to AI Agent to give him ability to:
+
+1. maintain the library executables (basically - meta instructions)
+   1.1 The basic terms & domain knowledge (what is AE and how it works) - `ae_context.md`
+   GOAL: To maintain `ae_bootstrap` and `ae_usage` files
+   USER: Maintainer of the library
+   1.2 The drop file to maintain the library executables - `ae_bootstrap.md`.
+   GOAL: To create ae files structure and maintain it.
+   USER: Maintainer of the library
+   1.3 The drop file to use ae files in library - `ae_usage.md`
+   GOAL: To use ae files of this library.
+   USER: User (in other words - developer who uses this library)
+2. ability to install / uninstall / update (basically, one time to use rules)
+   2.1 Installation, Configuration, Integration files - `ae_install.md`
+   GOAL: To install, configure and integrate the library.
+   USER: User
+   2.2 Uninstallation file - `ae_uninstall.md`
+   GOAL: To uninstall the library.
+   USER: User
+   2.3 Update file - `ae_update.md`
+   GOAL: To update the library from old version to new one.
+   USER: User
+3. ability to use the library frequently / or depending of its usage needs.
+   3.1 Usage file - `ae_usage.md`
+   GOAL: To use the library frequently / or depending of its usage needs.
+   USER: User
+
 # Example (The Implementation)
 
 # Conclusion
