@@ -80,7 +80,27 @@ The core idea is to pass meta rules to AI Agent to give him ability to:
    GOAL: To use the library frequently / or depending of its usage needs.
    USER: User
 
+The AE files structure:
+
+```
+root/
+├── ae/
+│   ├── ae_context.md
+│   ├── ae_bootstrap.md
+│   ├── ae_use.md
+```
+
 The library AE files will be located in the `root/ai_use` folder.
+At the end this would be the structure of the library AE files:
+
+```
+root/
+├── ai_use/
+│   ├── ae_install.md
+│   ├── ae_uninstall.md
+│   ├── ae_update.md
+│   ├── {library_name}_use.md
+```
 
 # Example (The Implementation)
 
