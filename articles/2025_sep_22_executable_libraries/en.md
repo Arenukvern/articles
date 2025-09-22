@@ -75,10 +75,12 @@ The core idea is to pass meta rules to AI Agent to give him ability to:
    2.3 Update file - `ae_update.md`
    GOAL: To update the library from old version to new one.
    USER: User
-3. ability to use the library frequently / or depending of its usage needs.
-   3.1 Usage file - `ae_usage.md`
+3. ability to use the library frequently / or depending of its usage needs. Created via `ae_use.md` file.
+   3.1 Usage file - the rule, adapted to the library name. For example, for library name `go_router` and Cursor AI usage it can be a rule in the path `go_router_usage.mdc`. During installation to User Codebase , AI Agent needs to ask User what AI Agent should be used, and place / name it according to it. For example, if User wants to use Cursor AI, AI Agent should place this rule to the path `.cursor/rules/go_router_usage.mdc`.
    GOAL: To use the library frequently / or depending of its usage needs.
    USER: User
+
+The library AE files will be located in the `root/ai_use` folder.
 
 # Example (The Implementation)
 
