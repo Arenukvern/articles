@@ -4,7 +4,7 @@ Can you imagine you can install / configure and uninstall libraries (in any lang
 
 This article is about how we can achieve this.
 
-Or in other words - how to make libraries executable by AI agents in Agentic World. (using AI - LLM powered agents)
+Or in other words - Agentic Executables treat libraries as executable programs with structured, agent-readable instructions. Instead of relying on human documentation, AI agents follow standardized `.md` files to install, configure, integrate, update, and uninstall libraries autonomously.
 
 This problem follows three part structure:
 
@@ -215,7 +215,8 @@ In the time of writing this article, the registry I've started testing registry 
 
 1. First you need to install MCP server.
    To do this, please drop https://github.com/fluent-meaning-symbiotic/agentic_executables/blob/main/agentic_executables_mcp/ae_install.md file to your AI Agent or install it manually.
-2.
+
+2. Second, use it:
 
 - to install library (make sure it is in registry) write to your AI Agent: `create a plan to instal "library_name" as ae`
 - to uninstall - `create a plan to uninstall "library_name" as ae`
