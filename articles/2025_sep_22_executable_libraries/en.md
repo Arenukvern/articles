@@ -120,7 +120,7 @@ root/
 │   ├── ae_install.md
 │   ├── ae_uninstall.md
 │   ├── ae_update.md
-│   ├── {library_name}_use.md
+│   ├── ae_use.md
 ```
 
 # Implementation Architecture
