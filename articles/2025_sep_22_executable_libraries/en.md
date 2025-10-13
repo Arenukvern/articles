@@ -65,7 +65,7 @@ With all of that, let's define the principles of working with AE.
 
 ## Core Principles
 
-- **Agent Empowerment** - AE docs written for AI, not humans. Therefore AI agents can work autonomously without or under minimal human intervention
+- **Agentic First** - AE docs written for AI, not humans. Therefore AI agents can work autonomously without or under minimal human intervention
 - **Modularity** - Clear, reusable instruction steps and pieces.
 - **Contextual Awareness** - Sufficient domain knowledge tailored made for AI Agent and ready to be used with end project.
 - **Reversibility** - Clean uninstallation restores original state
@@ -207,7 +207,7 @@ flowchart TD
 
 That's it:)
 
-In the time of writing this article, the registry I've started testing registry and MCP server on personal projects and with some bugs (of course) install / uninstall / configure already works.
+In the time of writing this article, I've started testing the registry and MCP server on personal projects and with some bugs (of course) install / uninstall / configure already works.
 
 # How to use it Today?
 
