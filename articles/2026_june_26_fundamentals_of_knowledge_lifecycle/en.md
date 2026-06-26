@@ -12,7 +12,7 @@ Why disclaimers are important? Because I believe that this only way to create tr
 
 Thank you for reading this article and I hope you find it useful.
 
-# Fundamentals of Knowledge Lifecycle
+# Fundamentals of Knowledge Management
 
 
 ## Terms & Definitions
@@ -24,9 +24,9 @@ First, let's define the terms and definitions (notice: it is not claim to be it 
 Every document, artifact, plan, scheme, decision (of doing, or not doing), message speaked by sound, text, image, code, video, hologram etc.. - is a part of that history. 
 - **Knowledge Source** - since knowledge is some kind of non-linear history, its source can be accidental, intentional, formatted or not, structured or not. For example: it can be as well as conversation between people, as well as conversation with/between AI, as well as natural event.
 - **Knowledge Point of View** - the knowledge can be expressed in different way depending on context, lingustics, visuals, ethics,  purpose and who or what is expressing / experiencing it. One source can be expressed from different points of view, one point of view can have different sources.
-- **Operational Knowledge Record** - living knowledge which convenient to experience and apply in practice. Has beginning and the end of life (in other words - life cycle). If knowledge is not used and not regularly updated - it should be considered as static knowledge record, extracted to several documents or destroyed.
-- **Archive Knowledge Record** - record for archive purposes (see DR/ADR below), for example: record of meeting, photo, etc.. something that cannot be altered without creating new one.
-- **Knowledge Lifecycle** - how and what exactly knowledge is created, caused, changed, stored, shared, used, and after all - destroyed. Important point here is that operational knowledge should not be static - it should be expected to have beginning and the end of life.
+- **Operational or Iterative Knowledge (Record)** - living knowledge which convenient to experience and apply in practice. Has beginning and the end of life (in other words - life cycle). If knowledge is not used and not regularly updated - it should be considered as static knowledge record, extracted to several documents or destroyed.
+- **Archive Knowledge (Record)** - record for archive purposes (see DR/ADR below), for example: record of meeting, photo, etc.. something that cannot be altered without creating new one.
+- **Knowledge Lifecycle** - how and what exactly knowledge is created, caused, changed, stored, shared, used, and after all - destroyed. Important point here is that operational or iterative knowledge should not be static - it should be expected to have beginning, middle (iterations of changes), and the end of life.
 - **Knowledge Changes Control System** - system that can document changes in knowledge and its lifecycle.
 - **Knowledge Usage Experience** - the experience of experiencing knowledge from certain point of view - reading, watching, listening, interacting, etc.. to reach desired purpose.
 - **Knowledge User** - who or what is using / experiencing knowledge - person, AI, or other entity.
@@ -37,8 +37,21 @@ From hereabove, let's define inherited and applicable terms which can be actuall
 
 - **Terminogy / Glossary** - agreed words / definitions - to avoid confusion and misinterpretation.
 - **Artifact type / format** - defines form of knowledge representation - text, image, code, video, hologram, etc.
-- **Structure & Compression** - defines how knowledge is organized and compressed for specific format and purpose. For example text can be organized in paragraphs, sentences, tables, trees, graphs, [FAQs](../2025_nov_25_faq/en.md), guides, knowledge packs (OKF, Skills, Rules, Agentic Executable Knowledge etc..) etc..
+- **Structure & Compression** - defines how knowledge is organized and compressed for specific format and purpose. For example text can be organized in paragraphs, sentences, tables, trees, graphs, [FAQs](../2025_nov_25_faq/en.md), guides, knowledge packs ( [OKF](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md), Skills, Rules, [Agentic Executables](https://github.com/fluent-meaning-symbiotic/agentic_executables/) etc..)
 - **Context** - defines the environment and circumstances for knowledge lifecycle happening. Mostly should be generated (collected) automatically to provide enough knowledge to act for any user / AI agent / etc.
 - **Decision Record (DR)** and **Architecture Decision Records (ADR)** - kinds of static knowledge records - captures decisions and reasoning process made by someone (Human or AI) - [adr.github.io](https://adr.github.io). Once created, they should never change, however can be superseeded by new ones.
-- **Standard Operating Procedure (SOP)** - kind of Operational Knowledge Record - a document that outlines the steps for a specific task or process and easily to action (and automate in the future, mostly deterministically).
-- **Evidence & Validation** - used to support or refute knowledge claims depending on context and purpose - examples, math, code, other knowledge artifacts. In terms of codebase - it can be expressed as deterministic tooling, tests, lints (static analysis), etc.. In terms of other knowledge artifacts - can be standards, policies, procedures, experiments, simulations, etc..
+- **[Standard Operating Procedure (SOP)](https://en.wikipedia.org/wiki/Standard_operating_procedure)** - kind of Operational Knowledge Record - a document that outlines the steps for a specific task or process and easily to action (and automate in the future, mostly deterministically).
+- **Executable Knowledge** - kind of Operational Knowledge Record or SOP - which can be executed by Human, AI agent or other entity. Can be expressed into at least two forms: Logical or Deterministic (mostly seen as code, or math - the result is always deterministic) and Non-deterministic / Generative - the execution can vary based on context, entity who / what is executing it (Human, AI agent, or other entity or natural events) - the result is always non-deterministic but can be evaluated for correctness and completeness with certain level of confidence via *Evidence & Validation* 
+- **Evidence & Validation** - used to support or refute knowledge claims depending on context and purpose through examples, math, code, other knowledge artifacts, specific tools etc.. In terms of codebase - it can be expressed as deterministic tooling, tests, lints (static analysis), knowledge harness (agentic/engineering harness) etc.. In terms of other knowledge artifacts - can be standards, policies, procedures, experiments, simulations, etc.. 
+- **Domain Knowledge** - “is knowledge of a specific discipline”, captured from domain experts/specialists by analytics, designers or through iterative design, your own experience or work - cited from [Domain Knowledge](https://en.wikipedia.org/wiki/Domain_knowledge). For example - it would be the experience of the end user who uses your app.
+
+- **Product Requirements Document (PRD) and Game Design Document (GDD)** - 
+- **User Flow or User Journey** - 
+
+Important pieces of knowledge:
+- knowledge is often universal, and can be viewed, experienced and applied between cross-domains and cross-projects if enough abstracted or generalized.
+- knowledge follows evolution. 
+- while knowledge is limitless, the storage and ability to access, orginize and manage it for best experience is limited and highly depends from Knowledge User and its goals / purposes and knowledge records organization (management systems, tools, software etc..) available.
+- the tools and organization of knowledge can be very different for each project. Therefore it is better to have a least one layer of knowledge dedicated strictly to its organization and knowledge end user expereinces
+
+.
