@@ -50,13 +50,14 @@ From hereabove, let's define inherited and applicable terms which can be actuall
 - **Knowledge Harness** - tools and systems that can help to manage and/or organize knowledge and its lifecycle, as parallel pattern - see example of harness engineering in [OpenAI article](https://openai.com/index/harness-engineering/).
 - **Product Requirements Document (PRD) and Game Design Document (GDD)** - kinds of Operational Knowledge Records - a document that outlines the requirements for a specific product, features or game, expressed in specific format by specific purpose for certain Knowledge Users (developers, designers, investors, marketers etc..).
 - **User Flow or User Journey** - 
+- **Knowledge Patterns** - repeated patterns of organization and experience which can be turned into terms-definitions, citations,formats, principles, SOPs, Records etc.. or back into raw knowledge (artifacts) for specific purpose.
 
 Important pieces of knowledge:
 - knowledge is often universal, and can be viewed, experienced and applied between cross-domains and cross-projects if enough abstracted or generalized.
 - operational knowledge follows evolution. 
 - the tools and organization of knowledge can be very different for each project. Therefore it is better to have a least one layer of knowledge dedicated strictly to its organization and knowledge end user expereinces
 
-## Knowledge Organization & Experience
+## Knowledge Organization & Experience: from example to patterns.
 
 Now let's explore smallest possible software project - an application example.
 
