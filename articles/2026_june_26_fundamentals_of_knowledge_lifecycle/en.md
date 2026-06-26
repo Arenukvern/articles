@@ -77,7 +77,6 @@ Furthermore, these roles highly subjective, and will be overlapped in most cases
 
 ### Knowledge Sources.
 
-
 #### Communication:
 
 First of all - define Ethical Boundaries, because this is highly sensitive line: in case of recording everything team could risk losing privacy, trust and collaboration between members and bring blaiming culture & mental pressure, in case of recording nothing - would lose ability to improve and accumulate overall Knowledge, ability to pass knowledge for AI Agents and other members and work asynchonously. 
@@ -86,10 +85,16 @@ Sometimes communication is about building trust, experimenting, passing knowledg
 
 Everyone should be aware of recording, why it needed, and how exactly these recordings will be used.
 
-Sources can include:
+**Sources can include:**
 - day to day communications: all possible channels, apps, emails, chats, calls.
 - static artifacts: documents, files, images, videos, audio, etc..
 - innovation ideas: references, links, news, notes, suggestions, books, ideas, articles, etc..
 - expressed emotions: signlas of something is wrong, what works and what isnt.
 - time & contacts: to define convenient hours to cool down, to collaborate & discuss.  
+- agentic & human threads: since we all read best Science Fiction books, we can imagine that AI Agents are being personalized - and work alongside people and other AI Agents. This is alrady happening in threads sessions, various chat implementations and starting with new wave of alternative Version Control Systems (not git-based) - this layer of communication will become more and more common and more needed for clear transparancy - just like in case of human to human communication.
 
+**Open question of Ethics - "Severance (1)" Problem:**
+1 - "Severance" - popular TV Show made by Apple TV+ with one distingiush idea: there is a person identity at work, and other person identitity outside of work. Each identity has its own memories, goals, purposes, skills, emotions etc..
+
+
+When people 
