@@ -50,6 +50,7 @@ From hereabove, let's define inherited and applicable terms which can be actuall
 - **Knowledge Harness** - tools and systems that can help to manage and/or organize knowledge and its lifecycle, as parallel pattern - see example of harness engineering in [OpenAI article](https://openai.com/index/harness-engineering/).
 - **Product Requirements Document (PRD) and Game Design Document (GDD)** - kinds of Operational Knowledge Records - a document that outlines the requirements for a specific product, features or game, expressed in specific format by specific purpose for certain Knowledge Users (developers, designers, investors, marketers etc..).
 - **Knowledge Patterns** - repeated patterns of organization and experience which can be turned into terms-definitions, citations,formats, principles, SOPs, Records etc.. or back into raw knowledge (artifacts) for specific purpose.
+- **Knowledge Stewardship** - the process and techniques of passing and working on meta level - i.e. answer to question - how to teach, mentor Knowledge as systems, harnesses, experiences etc.. How to create and maintain practices of working itself. 
 - **User Flow or User Journey** - sequence of screens, actions, decisions, interactions, etc.. that user performs to achieve certain goal or purpose.
 
 Important pieces of knowledge:
@@ -93,8 +94,16 @@ Everyone should be aware of recording, why it needed, and how exactly these reco
 - time & contacts: to define convenient hours to cool down, to collaborate & discuss.  
 - agentic & human threads: since we all read best Science Fiction books, we can imagine that AI Agents are being personalized - and work alongside people and other AI Agents. This is alrady happening in threads sessions, various chat implementations and starting with new wave of alternative Version Control Systems (not git-based) - this layer of communication will become more and more common and more needed for clear transparancy - just like in case of human to human communication.
 
-**Open question of Ethics - "Severance (1)" Problem:**
-1 - "Severance" - popular TV Show made by Apple TV+ with one distingiush idea: there is a person identity at work, and other person identitity outside of work. Each identity has its own memories, goals, purposes, skills, emotions etc..
+##### Open questions of Ethics:
+**1. "Severance (1)" Problem:**
+1 - "Severance" - popular TV Show made by Apple TV+ with one distingiush idea: there is a person identity (personality) at work, and other person identity (personality) outside of work. Each identity has its own memories, goals, purposes, skills, emotions etc..
 
 
-When people 
+When people usually work on any job in any role, they are aquire experience, domain knowledge, techniques, skills - including at certain defree social and communication (can be expressed in soft talks, culture, types of delegation, typs of transparancy). 
+In some kind of degree - this experience mxied up with person identity - since it is expected that at least for most time of day the person will do its job in any role taken.
+
+However in the case of AI Agents things getting complicated: when during work AI Agents gets experience of commucation, knowledge, skills - just like with the humans - not everything would be expressed into metrics even though its math.. The problem is that accidently, as part of personalization - the AI Agent will have understanding and personal style of communication with specific people - no matter how expressed - as memories notes, as some kind of graph or skills, or other kind knowledge records. The more importantly that this will create unique personal style of working, unqiue skills, and as result - experience of communication would be similar (in some degree) to the communication of other person.
+
+So the problem is that when member of team who worked with that agent will gone, what would become to these part of knoweledge? Since it can containn sensitive and possibly NDA-related information from one point it makes no sense to go with leaving member. On the other hand - how it is differnt from memories, aquired experience and skills of the member itself? 
+
+**2. 
