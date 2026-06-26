@@ -28,7 +28,7 @@ Every document, artifact, plan, scheme, decision (of doing, or not doing), messa
 - **Archive Knowledge (Record)** - record for archive purposes (see DR/ADR below), for example: record of meeting, photo, etc.. something that cannot be altered without creating new one.
 - **Knowledge Lifecycle** - how and what exactly knowledge is created, caused, changed, stored, shared, used, and after all - destroyed. Important point here is that operational or iterative knowledge should not be static - it should be expected to have beginning, middle (iterations of changes), and the end of life.
 - **Knowledge Changes Control System** - system that can document changes in knowledge and its lifecycle.
-- **Knowledge Usage Experience** - the experience of experiencing knowledge from certain point of view - reading, watching, listening, interacting, etc.. to reach desired purpose.
+- **Knowledge Experience** - the experience of experiencing knowledge from certain point of view - reading, watching, listening, interacting, etc.. to reach desired purpose - usually from Knowledge User perspective.
 - **Knowledge User** - who or what is using / experiencing knowledge - person, AI, or other entity.
 
 ### applicable Knowledge terms
@@ -61,6 +61,8 @@ Important pieces of knowledge:
 
 Now let's explore smallest possible software project - an application example.
 
+### Knowledge Users
+
 To start with - let's define who will be Knowledge User and what are its goals / purposes.
 That point is highly subjective and depends who is working with project, so to keep it ~relevant for year of 2026:
 
@@ -73,4 +75,6 @@ That point is highly subjective and depends who is working with project, so to k
 
 Furthermore, these roles highly subjective, and will be overlapped in most cases, or can be expended / collapsed to more/less roles - everythng depends on project scale.
 
+### Knowledge Experience
 
+With defined Knowledge Users the next step is to define their Knowledge Experience.
