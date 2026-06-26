@@ -75,7 +75,21 @@ That point is highly subjective and depends who is working with project, so to k
 
 Furthermore, these roles highly subjective, and will be overlapped in most cases, or can be expended / collapsed to more/less roles - everythng depends on project scale.
 
-### Knowledge Experience
+### Knowledge Sources.
 
-With defined Knowledge Users the next step is to define their Knowledge Experience.
+
+#### Communication:
+
+First of all - define Ethical Boundaries, because this is highly sensitive line: in case of recording everything team could risk losing privacy, trust and collaboration between members and bring blaiming culture & mental pressure, in case of recording nothing - would lose ability to improve and accumulate overall Knowledge, ability to pass knowledge for AI Agents and other members and work asynchonously. 
+
+Sometimes communication is about building trust, experimenting, passing knowledge - these are not "metricable" things and should not be measured.
+
+Everyone should be aware of recording, why it needed, and how exactly these recordings will be used.
+
+Sources can include:
+- day to day communications: all possible channels, apps, emails, chats, calls.
+- static artifacts: documents, files, images, videos, audio, etc..
+- innovation ideas: references, links, news, notes, suggestions, books, ideas, articles, etc..
+- expressed emotions: signlas of something is wrong, what works and what isnt.
+- time & contacts: to define convenient hours to cool down, to collaborate & discuss.  
 
