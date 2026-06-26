@@ -49,8 +49,8 @@ From hereabove, let's define inherited and applicable terms which can be actuall
 - **Knowledge Evoloution** - knowledge can shrink or grow over time, depends on its scale capacity, knowledge harness and its Users. For example - in terms of codebase - it can be seen as adding or reducing complexity of logic. Some points of this described [in Skill Steward Evolutionary Simplicity](https://github.com/Arenukvern/skill_steward/blob/main/docs/core/evolutionary-simplicity.mdx).
 - **Knowledge Harness** - tools and systems that can help to manage and/or organize knowledge and its lifecycle, as parallel pattern - see example of harness engineering in [OpenAI article](https://openai.com/index/harness-engineering/).
 - **Product Requirements Document (PRD) and Game Design Document (GDD)** - kinds of Operational Knowledge Records - a document that outlines the requirements for a specific product, features or game, expressed in specific format by specific purpose for certain Knowledge Users (developers, designers, investors, marketers etc..).
-- **User Flow or User Journey** - 
 - **Knowledge Patterns** - repeated patterns of organization and experience which can be turned into terms-definitions, citations,formats, principles, SOPs, Records etc.. or back into raw knowledge (artifacts) for specific purpose.
+- **User Flow or User Journey** - sequence of screens, actions, decisions, interactions, etc.. that user performs to achieve certain goal or purpose.
 
 Important pieces of knowledge:
 - knowledge is often universal, and can be viewed, experienced and applied between cross-domains and cross-projects if enough abstracted or generalized.
@@ -78,3 +78,4 @@ Furthermore, these roles highly subjective, and will be overlapped in most cases
 ### Knowledge Experience
 
 With defined Knowledge Users the next step is to define their Knowledge Experience.
+
