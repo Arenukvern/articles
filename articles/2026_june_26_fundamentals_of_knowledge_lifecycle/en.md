@@ -92,7 +92,7 @@ Everyone should be aware of recording, why it needed, and how exactly these reco
 - innovation ideas: references, links, news, notes, suggestions, books, ideas, articles, etc..
 - expressed emotions: signlas of something is wrong, what works and what isnt.
 - time & contacts: to define convenient hours to cool down, to collaborate & discuss.  
-- agentic & human threads: since we all read best Science Fiction books, we can imagine that AI Agents are being personalized - and work alongside people and other AI Agents. This is alrady happening in threads sessions, various chat implementations and starting with new wave of alternative Version Control Systems (not git-based) - this layer of communication will become more and more common and more needed for clear transparancy - just like in case of human to human communication.
+- agentic & human threads: since we all read best Science Fiction books, we can imagine that AI Agents are being personalized - and work alongside people and other AI Agents. This is alrady happening in threads sessions, various chat implementations and starting with new wave of alternative Version Control Systems (not git-based - TODO: add links) - this layer of communication will become more and more common and more needed for clear transparancy - just like in case of human to human communication.
 
 ##### Open questions of Ethics:
 **1. "Severance (1)" Problem:**
