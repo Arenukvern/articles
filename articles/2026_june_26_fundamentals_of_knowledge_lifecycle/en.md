@@ -51,6 +51,7 @@ From hereabove, let's define inherited and applicable terms which can be actuall
 - **Product Requirements Document (PRD) and Game Design Document (GDD)** - kinds of Operational Knowledge Records - a document that outlines the requirements for a specific product, features or game, expressed in specific format by specific purpose for certain Knowledge Users (developers, designers, investors, marketers etc..).
 - **Knowledge Patterns** - repeated patterns of organization and experience which can be turned into terms-definitions, citations,formats, principles, SOPs, Records etc.. or back into raw knowledge (artifacts) for specific purpose.
 - **Knowledge Stewardship** - the process and techniques of passing and working on meta level - i.e. answer to question - how to teach, mentor Knowledge as systems, harnesses, experiences etc.. How to create and maintain practices of working itself. 
+- **Knowledge Accessability** - how to make knowledge accessible for Knowledge Users - i.e. how to make it visible, searchable, understandable for entities/tools/systems (Humans, Agents, code, systems, etc..), usable, reusable, etc..
 - **User Flow or User Journey** - sequence of screens, actions, decisions, interactions, etc.. that user performs to achieve certain goal or purpose.
 
 Important pieces of knowledge:
@@ -107,3 +108,7 @@ However in the case of AI Agents things getting complicated: when during work AI
 So the problem is that when member of team who worked with that agent will gone, what would become to these part of knoweledge? Since it can containn sensitive and possibly NDA-related information from one point it makes no sense to go with leaving member. On the other hand - how it is differnt from memories, aquired experience and skills of the member itself? 
 
 **2. 
+
+
+PDSA, KISS, DRY, YAGNI
+
