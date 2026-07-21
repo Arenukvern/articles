@@ -50,7 +50,7 @@ From hereabove, let's define inherited and applicable terms which can be actuall
 - **Knowledge Harness** - tools and systems that can help to manage and/or organize knowledge and its lifecycle, as parallel pattern - see example of harness engineering in [OpenAI article](https://openai.com/index/harness-engineering/).
 - **Product Requirements Document (PRD) and Game Design Document (GDD)** - kinds of Operational Knowledge Records - a document that outlines the requirements for a specific product, features or game, expressed in specific format by specific purpose for certain Knowledge Users (developers, designers, investors, marketers etc..).
 - **Knowledge Patterns** - repeated patterns of organization and experience which can be turned into terms-definitions, citations,formats, principles, SOPs, Records etc.. or back into raw knowledge (artifacts) for specific purpose.
-- **Knowledge Stewardship** - the process and techniques of passing and working on meta level - i.e. answer to question - how to teach, mentor Knowledge as systems, harnesses, experiences etc.. How to create and maintain practices of working itself. 
+- **Knowledge Stewardship** - the process and techniques of passing and working on meta level - i.e. answer to question - how to teach, mentor Knowledge as systems, harnesses, experiences etc.. How to create and maintain practices of working itself. In some systems the managing itwould be domain of Knoweldge Steward Role.
 - **Knowledge Accessability** - how to make knowledge accessible for Knowledge Users - i.e. how to make it visible, searchable, understandable for entities/tools/systems (Humans, Agents, code, systems, etc..), usable, reusable, etc..
 - **User Flow or User Journey** - sequence of screens, actions, decisions, interactions, etc.. that user performs to achieve certain goal or purpose.
 
@@ -68,7 +68,7 @@ Now let's explore smallest possible software project - an application example.
 To start with - let's define who will be Knowledge User and what are its goals / purposes.
 That point is highly subjective and depends who is working with project, so to keep it ~relevant for year of 2026:
 
-1. Visionary, Product Owner, Developer. (often Founder)
+1. Visionary, Product Owner, Developer, Knowledge Steward (often Founder).
 2. Graphics/Product Designer / Marketer / Content Creator (often Influencer).
 3. End User as Human, End User as AI Agent.
 4. Internal AI Agents.
@@ -138,7 +138,7 @@ Therefore moreoften it is:
 - educational materials: articles, books, courses, tutorials, etc..
 - user (human / AI / tool) generated content - explicit (when user knows that the his/her/its actions will result something new - such as capturing photo, drawing pixelart, managing video etc.., or implicit - when it is created without user's awareness or intention - such as search results, recommendations, predictions, procedural generation - in games it can be VFX, level, character creation, animations, etc.., in apps it can be UI - arranged or generated programmatically or by AI Agent, or even other User).
 
-#### Business Process
+### Business Process
 
 In every product we will willingly know or try to collect data to understand how to achieve the vision eventually by communicating with end user or giving access to product to use it (even if the first user will be the same visioner who works on the product to solve its own problem), and by doing that it would map ways about failures and successes to achieve the vision. The successful paths will be eventually turned into patterns, principles, SOPs, Records etc.. The failures will become edge cases, exceptions, regressions, tests, etc..
 
@@ -159,6 +159,12 @@ In the time of writing, the practical approach is to
 
 Who owns knowledge, who use it, who has access and ability to modify it?
 
+The most of simple and in the same time complex enough system to express it as an abstraction is ECS (Entity, Component, System). Component - is raw data wihout any logic, system knows about components it needs to access, and entity, well , it is just kind of way to group components together to access and modify it nicely. (for better explanation - see TODO: add links).
 
+Why this abstract is important - because basically all, even most complex systems, will go down to this simple concept, we divide data as much as possible and as it is needed (flatten it mostly), then access / query only what we need. If access is restricted, then we will not being able to get it, while we will be able to get other data without a risk of exposure irrelevant pieces.
 
+In other abstraction ECS can be considered as Database kind (because structurally it may have extreme similarities (see bevy, Entt, ecsly etc.. TODO: add links)). Curiously, the most sophisticiated systems like book libraries would use exact same behaviour (because historically, these manual or half-automated systems were adopted for fast access, restrictions and formalities to keep some data secure, some data easy to access, and some data easy to modify) - the same goal we currently have with any digital system in program - doesn't matter where - in program memory - CPU, in cloud servers orginizing it into clusters, in vector databases, in vectorless databases (when we orginize documents by library/book principles), in graphh and relative and no sql databases, even when we making simple program or new building, new park or coffeeshop, and even logicitics cetner - basically we do walking around the same problem again and again - with similar solutions but with different names and different implementations.
 
+### Knoweledge Stewardship 
+
+Who view entire Knowledge as system and able to check its health, predict what is needed, when and what problems it has and guide / curate its developement?
