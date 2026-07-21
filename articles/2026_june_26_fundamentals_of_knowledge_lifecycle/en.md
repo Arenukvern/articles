@@ -163,7 +163,17 @@ The most of simple and in the same time complex enough system to express it as a
 
 Why this abstract is important - because basically all, even most complex systems, will go down to this simple concept, we divide data as much as possible and as it is needed (flatten it mostly), then access / query only what we need. If access is restricted, then we will not being able to get it, while we will be able to get other data without a risk of exposure irrelevant pieces.
 
-In other abstraction ECS can be considered as Database kind (because structurally it may have extreme similarities (see bevy, Entt, ecsly etc.. TODO: add links)). Curiously, the most sophisticiated systems like book libraries would use exact same behaviour (because historically, these manual or half-automated systems were adopted for fast access, restrictions and formalities to keep some data secure, some data easy to access, and some data easy to modify) - the same goal we currently have with any digital system in program - doesn't matter where - in program memory - CPU, in cloud organizing servers or programs into clusters, in vector databases, in vectorless databases (when we orginize documents by library/book principles), in graph and relative and no sql databases, even when we making simple program or new building (architecture), new park (social and ecology wellbeing) or coffeeshop (), and even logistics (material handling & distribution) - basically we do walking around the same problem again and again - with similar solutions but under different names / titles and different implementations in real or virtual life.
+In other abstraction ECS can be considered as Database kind (because structurally it may have extreme similarities (see bevy, Entt, ecsly etc.. TODO: add links)). Curiously, the most sophisticiated systems like book libraries would use exact same behaviour (because historically, these manual or half-automated systems were adopted for fast access, restrictions and formalities to keep some data secure, some data easy to access, and some data easy to modify) - the same goal we currently have with any digital system in program - doesn't matter where - in program memory - CPU, in cloud organizing servers or programs into clusters, in vector databases, in vectorless databases (when we orginize documents by library/book principles), in graph and relative and no sql databases, even when we making simple program or new building (architecture), new park (social and ecology wellbeing) or coffee/cacaoshop (social, cultural and food interaction), and even logistics & industries (material handling, distribution, production) - basically we do walking around the same problem again and again - with similar solutions but under different names / titles and different implementations in real or virtual life.
+
+The abstraction is what would be layed down as a core. The next things would be access points in the kinds of protocols (MCP, CLI, API (REST, GraphQL, protobuf etc..)), interfaces (UI, A2UI, etc..), or even programs such as text editors and other utilities. In other words, it is best to expect to have more access points per one stable core abstraction, rather then more core abstractions and one access point.
+
+I.e. it could be represented as kinda pipeline:
+
+Sources (Storages) <-> Core Abstraction <-> Access Points
+
+i.e. the data flow may be visible as Many <-> One <-> Many relation.
+
+In the same time it is important to note, that while we can have one Core Abstraction, this abstraction can have several internal dimensions, to be represented or implemented or viewed or projected as with different purposes.
 
 ### Knoweledge Stewardship 
 
