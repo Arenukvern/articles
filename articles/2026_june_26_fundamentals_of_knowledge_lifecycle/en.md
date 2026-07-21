@@ -175,6 +175,19 @@ i.e. the data flow may be visible as Many <-> One <-> Many relation.
 
 In the same time it is important to note, that while we can have one Core Abstraction, this abstraction can have several internal dimensions, to be represented or implemented or viewed or projected as with different purposes.
 
+At the time of writing, the more and more access points are becoming new normal: Agent Skills, Workflows, declarative and generative systems (in format of chat bots), etc..
+
 ### Knoweledge Stewardship 
 
 Who view entire Knowledge as system and able to check its health, predict what is needed, when and what problems it has and guide / curate its developement?
+
+At least one Knowledge User (but better be mesh network of users, including AI Agents) which has certain domain knowledge and ability to see it through to request, develop and maintain certain tools, techniques, AI.
+
+For Civic Engineers - it would be Environmental Stewardship, https://www.asce.org/advocacy/priority-issues/environmental-stewardship 
+
+For Software Engineers (i.e. software / program / monorepo) - it can be expressed as Engineering Stewardship, https://docs.page/arenukvern/skill_steward/NORTH_STAR
+
+For Product Designers it would be Product Stewardship or Ethical Design, Sustainable Product Design (Industrial Design) 
+
+In other words, the knowledge stewardship should be shared by those who can not only access it but for everyone to use, modify and give feedaback for it, its tools and its ecosystem (that's also one of the reason why while we can design many access points, but it should be one abstraction core, so the principles and tools could be abstracted, adapted, and trafferrable from domain to domain, from one business process to other, from human to agent and vice versa).
+
