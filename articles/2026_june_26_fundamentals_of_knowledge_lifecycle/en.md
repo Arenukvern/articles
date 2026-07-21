@@ -191,3 +191,19 @@ For Product Designers it would be Product Stewardship or Ethical Design, Sustain
 
 In other words, the knowledge stewardship should be shared by those who can not only access it but for everyone to use, modify and give feedaback for it, its tools and its ecosystem (that's also one of the reason why while we can design many access points, but it should be one abstraction core, so the principles and tools could be abstracted, adapted, and trafferrable from domain to domain, from one business process to other, from human to agent and vice versa).
 
+## What's after
+
+At the time of writing, the hereabove information should cover at least basics, enough to use for small solo or several people company, and should be clear for understanding for both humans and AI Agents as well.
+
+This is definately is not the endline, because the topic is huge, and I feel there would be a lot of debats, best practices developed or rejected around managing complex knowledge systems in future.
+
+I hope to modify and improve this document from time to time, - through new parts, or just modifying it at the source.
+
+Thank you for your time.
+
+Please share your thoughts in comments:) it really helps the algorithms give this article to others to read, and it would be great support from you:)
+
+Have a great day!
+
+Best,
+Anton
